@@ -1,0 +1,377 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+section{
+	padding-top : 100px;
+	padding-bottom : 60px;
+}
+body{
+	font-family:sans-serif;
+}
+h1{
+	color:black;
+	font-size:2.25rem;
+	text-align:center;
+	text-transform:uppercase;
+}
+h6{
+	color:#7878ff;
+	font-size:1.125rem;
+	font-weight:500;
+	text-align:center;
+}
+p{
+	color:#6a6c6c;
+	font-size:.9rem;
+	line-height:1.8;
+	text-align:center;
+}
+.container{
+	width:1200px;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+.col-33{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+.col-25{
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.col-50{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+i{
+	font-size:2rem;
+	color:yellow;
+}
+.btn{
+	padding:10px 20px;
+	background-color:#03a9f4;
+	border:0px;
+	border-radius:25px;
+	font-size:.95rem;
+	text-transform:uppercase;
+	color:white;
+}
+
+/* -- Header Part -- */
+header{
+	padding-top:10px;
+	padding-bottom:5px;
+	width:100%;
+	position:fixed;
+	overflow:hidden;
+	background-color:black;
+	z-index:99;
+}
+.company{
+	padding-top:35px;
+	float:left;
+}
+.company img {
+	float:left;
+	display:block;
+	height:25
+}
+.company h2{
+	float:left;
+	color:white;
+	font-size:2rem;
+	text-transform:uppercase;
+	margin:7px;
+}
+#main-menu{
+	padding-right:35px;
+	float:right;
+	margin:25px;
+}
+#main-menu ul{
+	list-style:none;
+}
+#main-menu ul li{
+	float:left;
+	margin:auto 1px;
+}
+#main-menu ul li a{
+	padding:10px 20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+	font-size:.95rem;
+	border-radius:5px;
+}
+#main-menu ul li a:hover{
+	background-color:white;
+	color:#03a9f4;
+	
+}
+
+/* -- Home Part -- */
+#home{
+	background-image:url('../images/light.PNG');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:0px;
+}
+#home .author_text{
+	text-align:left; 
+	margin-top:250px;
+}
+#home p{
+	text-align:left;
+	font-size:1.125rem;
+	color:yellow;
+	text-transform:uppercase;
+}
+#home h6{
+	text-align:left;
+	font-size:1.5rem; 
+	color:white; 
+	text-transform:uppercase;
+}
+#home h2{
+	text-align:left;
+	font-size:3rem;
+	color:yellow;
+	text-transform:uppercase;
+}
+#home img{
+	 width:auto;
+	 height:450;
+	 float:right;
+}
+/* -- About Me Part -- */
+#progres h5 {
+	text-align:left;
+	color:#5c5a5a;
+	text-transform:uppercase;
+}
+#progres .col-33{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.progresbar {
+	height:8px;
+	width:100%;
+	background-color:#cdcccc;
+	border-radius:5px;
+	margin:10px auto;
+}
+.progres-achive {
+	height:8px;
+	width:100%;
+	color:blue;
+	border-radius:5px;
+}
+.content{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
+	margin-top:40px;
+}
+/* -- Service Part -- */
+#services{
+	background-image:url('../images/light.PNG');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#services .content{
+	background-color:#ffffff47;
+	border-radius:5px;
+	padding:55px;
+}
+#services .content:hover{
+	background-color:#2196f3;
+}
+#services h3{
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+	text-transform:uppercase;
+}
+#services p{
+	color:white;
+	font-size:.9rem;
+}
+/* -- Project Part -- */
+#portfolio img {
+	height:250px;
+	width:100%;
+}
+#portfolio .content{
+	position:relative;
+}
+#portfolio .overlay{
+	position:absolute;
+	bottom:10px;
+	background-color:gray;
+	left:10px;
+	right:10px;
+	padding:15px;
+	color:white;
+	text-transform:uppercase;
+	display:none;
+}
+#portfolio .content:hover .overlay{
+	display:block;
+}
+/* -- Review Part -- */
+#review{
+	background-image:url('../images/light.PNG');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#review h3{
+	font-size:2rem;
+	color:white;
+	margin:20px auto 15px;
+}
+#review h5{
+	font-size:1rem;
+	text-transform:uppercase;
+	color:white;
+}
+/* -- Review Part -- */
+#contact{
+	background-image:url('../images/light.PNG');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#contact h1{
+	color:white;
+	margin-bottom:30px;
+}
+#contact form input,#contact form textarea{
+	width:95%;
+	background-color:transparent;
+	font-size:1rem;
+	padding:10px;
+	margin-bottom:15px;
+	border:1px solid white;
+	box-sizing:border-box;
+	border-radius:5px;
+}
+#contact textarea{
+	height:150px;
+}
+#address {
+	margin:40px auto 35px;
+}
+#address h4{
+	color:white;
+	margin-top:25px;
+	font-size:1rem;
+}
+/*-- == Footer Part == -- */
+footer{
+	overflow:hidden;
+	background-color:#f5f4f4;
+	padding: 30px 0;
+}
+#copy-right{
+	float:left;
+	color:#484848;
+	margin:10px;
+}
+#social{
+	float:right;
+}
+#social ul{
+	list-style:none;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}
+#social ul li{
+	float:left;
+	margin:auto 15px;
+	height:20px;
+	width:25px;
+	border:1px solid #484848;
+	border-radius:50%;
+	padding-top:5px;
+	text-align:center;
+}
+#social ul li a i{
+	font-size:1rem;
+	color:#484848
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:gray;
+	height:30px;
+	width:40px;
+	text-align:center;
+	padding-top:10px;
+}
+#upper i{
+	font-size:1rem;
+	color:white;
+}
+
+
+
+
+/* ====== Device View ====== */
+@media(max-width:1000px){
+	.container{
+		width:100%;
+	}
+}
+@media(max-width:576px){
+	.col-25, .col-33, .col-50{
+		width:100%;
+	}
+	/*-- === Home part === --*/
+	#home .col-50{
+		width:50%;
+		
+	}
+	#home img{
+		height:110px;
+	}
+	#home .author_text{ 
+	margin-top:50px;
+	}
+	#home p{
+		font-size:.5rem;
+	}
+	#home h6{
+		font-size:.6rem;
+	}
+	#home h2{
+		font-size:1rem;
+		margin-bottom:10px;
+	}
+	#home .btn{
+		font-size:.75rem;
+		padding:7px 15px;
+	}
+	
+	/*-- === Review part === --*/
+	#review .col-25{
+		width:50%;
+	}
+	#review .content{
+		margin-top:30px;
+	}
+	
+	/*-- === Footer part === --*/
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	#social ul{
+		margin-left:150px;
+	}
+}
